@@ -4,11 +4,14 @@ import Signup from './sign_up';
 
 class nav_bar extends Component{
 	
+  constructor(props){
+    super(props);
+    console.log(this.props.data);
+  }
+
 	render(){
 		return (
-
       <div>
-           
         <nav className="navbar">
   				  <div className="container-fluid">
     				<div className="navbar-header">
