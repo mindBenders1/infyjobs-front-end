@@ -33,34 +33,23 @@ class login extends Component{
 	}
 
 	render(){
-		console.log(this.state.login);
-		if(!this.state.login){
-				return (
-					<div>
-						<div className="dropdown">
-						    <button className="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-  							<span className="caret"></span></button>
-    						<ul className="dropdown-menu">
-      							<li><span className="glyphicon glyphicon-user"></span> Email <input value={this.state.login_e} className="login-user" onChange={this.handleChange_email} />
-							</li>
-      							<li><span className="glyphicon glyphicon-log-in"></span> Password <input type="password" value={this.state.login_p} className="login-pass" onChange={this.handleChange_pass} />
-							</li>
-							<li><input type="submit" value="Submit" />
-							</li>
-      						</ul>
-  						</div>
-						<form onSubmit={this.handleSubmit}>
-							
-						< /form>
-					</div>
-				);
-		}
-		else{
-
 			return (
-				<div>hello {this.state.userName}</div>
+					<div>
+						<div className="tab-content">
+				            <div role="tabpanel" className="tab-pane active" id="log-in">
+				                        	
+				            	<form>
+				            		<li>Email<input value={this.state.login_e} className="login-user" onChange={this.handleChange_email} /></li>
+				            		<li>Password<input value={this.state.login_e} type='password' className="login-user" onChange={this.handleChange_pass} /></li>
+				            	</form>
+					                        
+					        	<div className="modal-footer">
+				            		<button type="button" className="btn btn-primary">Login</button>
+				           		</div>
+			           		</div>
+			           	</div>
+					</div>
 			);
-		}
 	}
 }
 

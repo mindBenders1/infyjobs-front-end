@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
-import Login from './login';
-import Signup from './sign_up';
+// import Login from './login';
+// import Signup from './sign_up';
+import User from './user';
 
 class nav_bar extends Component{
 	
@@ -46,20 +47,9 @@ class nav_bar extends Component{
                   </div>
                 </div>
               </form>
-<<<<<<< HEAD
 
               <ul className="nav navbar-nav navbar-right">
-                <Signup/> 
-                <Login/>
-=======
-             
-              <div className="nav navbar-nav componay-logo">
-                <span className="halflings halflings-group"></span>
-              </div>
-
-              <ul className="nav navbar-nav navbar-right">
-                <Signup/> 
->>>>>>> 40e2c12de81fc66ffd92830be4aa7a313d1dee7d
+                <User/> 
               </ul>
 
             </div>

@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "uhack_firstpage",
-=======
   "name": "bpositive",
->>>>>>> 40e2c12de81fc66ffd92830be4aa7a313d1dee7d
   "version": "0.1.0",
   "private": true,
   "dependencies": {
