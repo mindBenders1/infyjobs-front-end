@@ -34,13 +34,13 @@ class login extends Component{
 
 	render(){
 			return (
-					<div>
 						<div className="tab-content">
 				            <div role="tabpanel" className="tab-pane active" id="log-in">
 				                        	
-				            	<form>
+				            	<form onSubmit={this.handleSubmit}>
 				            		<li>Email<input value={this.state.login_e} className="login-user" onChange={this.handleChange_email} /></li>
 				            		<li>Password<input value={this.state.login_e} type='password' className="login-user" onChange={this.handleChange_pass} /></li>
+				            		<li>Submit <input type='submit' value="Submit"></input></li>
 				            	</form>
 					                        
 					        	<div className="modal-footer">
@@ -48,7 +48,7 @@ class login extends Component{
 				           		</div>
 			           		</div>
 			           	</div>
-					</div>
+					
 			);
 	}
 }

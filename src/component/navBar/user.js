@@ -9,7 +9,7 @@ class user extends Component{
 		return(
 			<div>
 				<a className="signup-text" data-toggle="modal" data-target="#myModal"><i className="fa fa-user" aria-hidden="true"></i>Log In/Sign Up</a>
-				<div className="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div className="modal fade" id="myModal" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	    			<div className="modal-dialog">
 	        			<div className="modal-content">
 				            <div className="modal-body">
