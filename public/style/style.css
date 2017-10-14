@@ -1,5 +1,8 @@
 .navbar{
-	background-color:  #ff9999;
-	border-color:  #ffcccc;
+	background-color:  #3097D1;
+	border-color:  #138ed3;
 }
 
+.navbar a {
+	color: #FFFFFF;
+}
