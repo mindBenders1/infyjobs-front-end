@@ -46,10 +46,13 @@ class nav_bar extends Component{
                   </div>
                 </div>
               </form>
+             
+              <div className="nav navbar-nav componay-logo">
+                <span className="halflings halflings-group"></span>
+              </div>
 
               <ul className="nav navbar-nav navbar-right">
                 <Signup/> 
-                <Login/>
               </ul>
 
             </div>
